@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="ligth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Summer Sale</title>
+
+    <link rel="shortcut icon" type="x-icon" href="./images/Summer 1.png">
+
+    <!-- DaisyUI and Tailwind link-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;0,900;1,700&display=swap"
+        rel="stylesheet" />
+
+    <style>
+        .font-work {
+            font-family: "Work Sans", sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font-work">
+    <!-- header section started -->
+    <header>
+        <section>
+            <div class="flex lg:flex-row flex-col justify-center gap-7 items-center lg:bg-[#F9F6E2]">
+                <div class="lg:pl-36 md:pl-16 md:mt-4">
+                    <p
+                        class="text-[#111] text-2xl text-center lg:text-start md:text-start lg:text-4xl font-medium mb-10">
+                        ---SALE FEVER---
+                    </p>
+
+                    <h1 class="text-[#111] text-3xl text-center lg:text-start lg:text-5xl font-bold mb-16">
+                        Purchase TK 200 or <br />
+                        above & get <span class="text-[#E527B2]">20% off</span>
+                    </h1>
+
+                    <div class="lg:flex gap-4 items-center sm:grid text-center">
+                        <p class="text-[#111] font-medium text-2xl">Use Promo Code</p>
+
+                        <button class="w-[150px] h-[50px] bg-[#E527B2] rounded-lg text-white text-2xl font-semibold">
+                            SELL200
+                        </button>
+                    </div>
+                </div>
+
+                <div>
+                    <img class="w-[500px] h-[500px]" src="./images/Summer 1.png" alt="" />
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- main section started -->
+    <main>
+        <!-- card section-1 -->
+
+        <section class="container mx-auto">
+            <div class="flex lg:flex-row flex-col">
+                <!-- all card -->
+
+                <div>
+                    <!-- card section-1 -->
+                    <div class="lg:mx-10 lg:my-10">
+                        <h1 class="mt-10 text-[#111] text-4xl font-semibold text-center lg:text-start">
+                            Kitchenware
+                        </h1>
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto gap-7 mt-10">
+                            <!-- card-1 -->
+                            <div onclick="handleClick(this)"
+                                class="transform transition-transform hover:-translate-y-1 hover:shadow-lg card bg-base-100 shadow-xl p-5 w-[70%] mx-auto lg:w-full">
+                                <div class="h-[58%]">
+                                    <img class="h-full px-20 py-8 bg-slate-100 rounded-xl w-full"
+                                        src="./images/prod1.png" alt="" />
+                                </div>
+
+                                <div class="flex justify-center mt-5">
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame (1).svg" alt="" />
+                                    <img src="./images/Frame (1).svg" alt="" />
+                                </div>
+                                <div class="text-center my-5">
+                                    <h5 class="text-[#111] text-xl font-semibold">Spoons</h5>
+                                    <p class="text-[#11111180]">39.00TK</p>
+                                </div>
+                            </div>
+
+                            <!-- card-2 -->
+                            <div onclick="handleClick(this)"
+                                class="transform transition-transform hover:-translate-y-1 hover:shadow-lg card bg-base-100 shadow-xl p-5 w-[70%] mx-auto lg:w-full">
+                                <div class="h-[58%]">
+                                    <img class="h-full px-20 py-8 bg-slate-100 rounded-xl w-full"
+                                        src="./images/prod2.png" alt="" />
+                                </div>
+                                <div class="flex justify-center mt-5">
+                                    <img src="./images/Frame (1).svg" alt="" />
+                                    <img src="./images/Frame (1).svg" alt="" />
+                                    <img src="./images/Frame (1).svg" alt="" />
+                                    <img src="./images/Frame (1).svg" alt="" />
+                                    <img src="./images/Frame (1).svg" alt="" />
+                                </div>
+                                <div class="card items-center text-center mt-5">
+                                    <p class="text-[#111] text-xl font-semibold">Plates</p>
+                                    <p class="text-[#11111180]">25.00TK</p>
+                                </div>
+                            </div>
+
+                            <!-- card-3 -->
+                            <div onclick="handleClick(this)"
+                                class="transform transition-transform hover:-translate-y-1 hover:shadow-lg card bg-base-100 shadow-xl p-5 w-[70%] mx-auto lg:w-full">
+                                <div class="h-[58%]">
+                                    <img class="h-full px-20 py-8 bg-slate-100 rounded-xl w-full"
+                                        src="./images/prod3.png" alt="" />
+                                </div>
+
+                                <div class="flex justify-center mt-5">
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame (1).svg" alt="" />
+                                </div>
+                                <div class="card items-center text-center mt-5">
+                                    <p class="text-[#111] text-xl font-semibold">Home Cooker</p>
+
+                                    <p class="text-[#11111180]">49.00TK</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card section-2 -->
+                    <div class="lg:mx-10 lg:my-10">
+                        <h1 class="mt-10 text-[#111] text-4xl font-semibold text-center lg:text-start">
+                            Sportswear
+                        </h1>
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto gap-7 mt-10">
+                            <!-- card-4 -->
+                            <div onclick="handleClick(this)"
+                                class="transform transition-transform hover:-translate-y-1 hover:shadow-lg card bg-base-100 shadow-xl p-5 w-[70%] mx-auto lg:w-full">
+                                <div class="h-[58%]">
+                                    <img class="h-full px-20 py-8 bg-slate-100 rounded-xl w-full"
+                                        src="./images/prod4.png" alt="" />
+                                </div>
+
+                                <div class="flex justify-center mt-5">
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame (1).svg" alt="" />
+                                    <img src="./images/Frame (1).svg" alt="" />
+                                    <img src="./images/Frame (1).svg" alt="" />
+                                </div>
+                                <div class="card items-center text-center my-5">
+                                    <p class="text-[#111] text-xl font-semibold">
+                                        Sports Back Cap
+                                    </p>
+                                    <p class="text-[#11111180]">49.00TK</p>
+                                </div>
+                            </div>
+
+                            <!-- card-5 -->
+                            <div onclick="handleClick(this)"
+                                class="transform transition-transform hover:-translate-y-1 hover:shadow-lg card bg-base-100 shadow-xl p-5 w-[70%] mx-auto lg:w-full">
+                                <div class="h-[58%]">
+                                    <img class="h-full px-20 py-8 bg-slate-100 rounded-xl w-full"
+                                        src="./images/prod5.png" alt="" />
+                                </div>
+                                <div class="flex justify-center mt-5">
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame (1).svg" alt="" />
+                                </div>
+                                <div class="card items-center text-center mt-5">
+                                    <p class="text-[#111] text-xl font-semibold">
+                                        Full Jursey Set
+                                    </p>
+
+                                    <p class="text-[#11111180]">69.00TK</p>
+
+                                </div>
+                            </div>
+
+                            <!-- card-6 -->
+                            <div onclick="handleClick(this)"
+                                class="transform transition-transform hover:-translate-y-1 hover:shadow-lg card bg-base-100 shadow-xl p-5 w-[70%] mx-auto lg:w-full">
+                                <div class="h-[58%]">
+                                    <img class="h-full px-20 py-8 bg-slate-100 rounded-xl w-full"
+                                        src="./images/prod6.png" alt="" />
+                                </div>
+
+                                <div class="flex justify-center mt-5">
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame (1).svg" alt="" />
+                                    <img src="./images/Frame (1).svg" alt="" />
+                                </div>
+                                <div class="card items-center text-center mt-5">
+                                    <p class="text-[#111] text-xl font-semibold">
+                                        Sports Cates
+                                    </p>
+
+                                    <p class="text-[#11111180]">159.00TK</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card section-3 -->
+                    <div class="lg:mx-10 lg:my-10">
+                        <h1 class="mt-10 text-[#111] text-4xl font-semibold text-center lg:text-start">
+                            Furniture
+                        </h1>
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto gap-7 mt-10">
+                            <!-- card-7 -->
+                            <div onclick="handleClick(this)"
+                                class="transform transition-transform hover:-translate-y-1 hover:shadow-lg card bg-base-100 shadow-xl p-5 w-[70%] mx-auto lg:w-full">
+                                <div class="h-[58%]">
+                                    <img class="h-full px-20 py-8 bg-slate-100 rounded-xl w-full"
+                                        src="./images/prod7.png" alt="" />
+                                </div>
+
+                                <div class="flex justify-center mt-5">
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame (1).svg" alt="" />
+                                </div>
+                                <div class="card items-center text-center my-5">
+                                    <p class="text-[#111] text-xl font-semibold">
+                                        Single Relax Chair
+                                    </p>
+                                    <p class="text-[#11111180]">185.00TK</p>
+                                </div>
+                            </div>
+
+                            <!-- card-8 -->
+                            <div onclick="handleClick(this)"
+                                class="card transform transition-transform hover:-translate-y-1 hover:shadow-lg bg-base-100 shadow-xl p-5 w-[70%] mx-auto lg:w-full">
+                                <div class="h-[58%]">
+                                    <img class="h-full px-20 py-8 bg-slate-100 rounded-xl w-full"
+                                        src="./images/prod8.png" alt="" />
+                                </div>
+                                <div class="flex justify-center mt-5">
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame.svg" alt="" />
+                                </div>
+                                <div class="card items-center text-center mt-5">
+                                    <p class="text-[#111] text-xl font-semibold">
+                                        Children Play
+                                    </p>
+
+                                    <p class="text-[#11111180]">299.00TK</p>
+
+                                </div>
+                            </div>
+
+                            <!-- card-9 -->
+                            <div onclick="handleClick(this)"
+                                class="transform transition-transform hover:-translate-y-1 hover:shadow-lg card bg-base-100 shadow-xl p-5 w-[70%] mx-auto lg:w-full">
+                                <figure class="h-[58%]">
+                                    <img class="h-full px-20 py-8 bg-slate-100 rounded-xl w-full"
+                                        src="./images/prod9.png" alt="" />
+                                </figure>
+
+                                <div class="flex justify-center mt-5">
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame.svg" alt="" />
+                                    <img src="./images/Frame (1).svg" alt="" />
+                                </div>
+                                <div class="card items-center text-center mt-5">
+                                    <p class="text-[#111] text-xl font-semibold">
+                                        Flexible Sofa
+                                    </p>
+
+                                    <p class="text-[#11111180]">339.00TK</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- side bar -->
+                <div class="mt-36">
+                    <div class="card w-[342px] h-[148px] flex justify-center shadow">
+                        <h2 class="text-2xl font-medium text-[#111] p-5">Have Cupon?</h2>
+                        <div class="flex pl-5">
+                            <div class="border rounded-lg">
+                                <input id="cuponCode" type="text" placeholder="Cupon Code" name="search" />
+                                <button disabled id="applyButton" class="btn bg-[#E527B2] text-white text-xl font-semibold p-2 rounded-lg">
+                                    Apply
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex lg:flex-col justify-center">
+                        <div class="p-6 space-y-5 mt-10 card shadow relative">
+                            <ul class=" list-none text-2xl font-medium text-[#111]" id="cartItem">
+
+                            </ul>
+
+
+                            <hr class="w-11/12 mx-auto" />
+
+                            <div class="space-y-5 mt-5">
+                                <h2 class="text-2xl font-medium text-[#111]">
+                                    Total Price: <span id="totalPrice" class="text-[#11111180]">00</span>
+                                </h2>
+                                <h2 class="text-2xl font-medium text-[#111]">
+                                    Discount: <span id="discount" class="text-[#11111180]">00</span>
+                                </h2>
+                                <h2 class="text-2xl font-medium text-[#111]">
+                                    Total: <span id="total" class="text-[#11111180]">00</span>
+                                </h2>
+                            </div>
+
+                            <hr class="w-11/12 mx-auto" />
+
+                            
+                            <button id="makePurchase" disabled
+                                class="btn bg-[#E527B2] text-white text-xl font-semibold rounded-xl  lg:w-[87%] absolute -bottom-7 lg:-bottom-9"
+                                onclick="my_modal_1.showModal()">
+                                Make Purchase
+                            </button>
+                            <dialog id="my_modal_1" class="modal">
+                                <form method="dialog" class="modal-box">
+                                    <div class="flex justify-center">
+                                        <img class="" src="./images/congo.png" alt="" />
+                                    </div>
+                                    <h3 class="font-bold text-5xl text-center">
+                                        Congratulations
+                                    </h3>
+                                    <p class="py-4 text-xl text-[#11111180] text-center">
+                                        You Purchase the Product
+                                    </p>
+                                    <div class="modal-action justify-center">
+                                        <button id="home" class="btn bg-[#E527B2] text-white text-xl font-semibold rounded-xl">
+                                            Go Home
+                                        </button>
+                                    </div>
+                                </form>
+                            </dialog>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+    <script src="./js/product-add.js"></script>
+</body>
+
+</html>
